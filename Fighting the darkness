@@ -1,0 +1,11 @@
+class Solution{
+    long maxDays(long arr[], int n){
+        long maxDays=arr[0];
+        for(int i=1; i<n; i++)
+        {
+            if(arr[i]>maxDays)
+            maxDays=arr[i];
+        }
+        return maxDays;
+    }
+}
